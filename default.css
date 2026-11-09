@@ -1,0 +1,83 @@
+body {
+   font-family: "Cascadia Code", sans-serif;
+   font-weight: 50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+
+#wrapper{
+width: 80%;
+margin: 0 auto;
+}
+
+footer{
+    margin-top: 2050 px;
+    font-size: 10px;
+    padding-top: 3%;
+}
+
+.icon-wrapper{
+    font-size: 1.2rem;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.im1{
+    grid-column-start: 1;
+    grid-column-end: 3;  
+    grid-row-start: 1;
+    grid-row-end: 3;  
+}
+
+.im2{
+    grid-column-start: 3;
+    grid-column-end: 5;  
+    grid-row-start: 1;
+    grid-row-end: 2;  
+}
+
+.im5{
+    grid-column-start: 1;
+    grid-column-end: 2;  
+    grid-row-start: 3;
+    grid-row-end: 5;  
+}
+
+.im5 img{
+    object-position: center;
+}
+
+.im7{
+    grid-column-start: 3;
+    grid-column-end: 5;  
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.im9{
+    grid-column-start: 1;
+    grid-column-end: 3;  
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
